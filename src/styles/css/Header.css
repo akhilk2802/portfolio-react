@@ -1,0 +1,11 @@
+.header-navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-navbar.dark {
+  background-color: rgb(17, 17, 17);
+  color: #ffffff;
+}
+.header-navbar.dark .nav-link {
+  color: white;
+}/*# sourceMappingURL=Header.css.map */

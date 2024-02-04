@@ -1,0 +1,39 @@
+.project-main {
+  padding-top: 4rem;
+}
+.project-main .project-title h2 {
+  font-weight: bolder;
+}
+.project-main .project-body {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .project-main .project-body {
+    flex-direction: row;
+  }
+}
+
+.project-main.dark {
+  background-color: rgb(17, 17, 17);
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+.project-main.dark .project-title h2 {
+  font-weight: bolder;
+  color: white;
+}
+.project-main.dark .project-title p {
+  color: white;
+}
+.project-main.dark .project-body {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .project-main.dark .project-body {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=Projects.css.map */

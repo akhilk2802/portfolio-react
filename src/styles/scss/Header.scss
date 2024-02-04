@@ -1,0 +1,12 @@
+.header-navbar {
+  background-color: rgba($color: white, $alpha: 0.5);
+  //   border: 1px solid red;
+}
+.header-navbar.dark {
+  background-color: rgba(17, 17, 17, 255);
+  color: #ffffff;
+
+  .nav-link {
+    color: white;
+  }
+}

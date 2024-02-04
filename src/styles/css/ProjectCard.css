@@ -1,0 +1,20 @@
+.projectCard-main {
+  padding: 0.5rem;
+  margin: 1rem;
+  transition: transform 0.3s;
+}
+
+.projectCard-main:hover {
+  transform: scale(1.1);
+}
+
+.projectCard-main.dark {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem;
+  margin: 1rem;
+  transition: transform 0.3s;
+}
+
+.projectCard-main:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=ProjectCard.css.map */

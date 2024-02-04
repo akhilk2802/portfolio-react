@@ -1,0 +1,19 @@
+.projectCard-main {
+  padding: 0.5rem;
+  margin: 1rem;
+  transition: transform 0.3s;
+}
+
+.projectCard-main:hover {
+  transform: scale(1.1);
+}
+.projectCard-main.dark {
+  background-color: rgba($color: white, $alpha: 0.8);
+  padding: 0.5rem;
+  margin: 1rem;
+  transition: transform 0.3s;
+}
+
+.projectCard-main:hover {
+  transform: scale(1.1);
+}

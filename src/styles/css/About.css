@@ -1,0 +1,72 @@
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4rem;
+}
+.about-main .about-title {
+  text-align: left;
+}
+.about-main .about-title h2 {
+  font-weight: bolder;
+}
+.about-main .about-body {
+  margin-top: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.about-main .about-skills {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.about-main .about-skills h2 {
+  font-weight: bolder;
+}
+.about-main .about-skills .skills-table .skills-table-col {
+  border: 1px dotted black;
+  padding: 1rem;
+}
+
+.about-main.dark {
+  background-color: rgb(17, 17, 17);
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+.about-main.dark .about-title {
+  text-align: left;
+}
+.about-main.dark .about-title h2 {
+  font-weight: bolder;
+  color: white;
+}
+.about-main.dark .about-title p {
+  color: white;
+}
+.about-main.dark .about-body {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.about-main.dark .about-body h5 {
+  color: white;
+}
+.about-main.dark .about-body p {
+  color: white;
+}
+.about-main.dark .about-skills {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.about-main.dark .about-skills h3 {
+  color: white;
+}
+.about-main.dark .about-skills h5 {
+  color: wheat;
+}
+.about-main.dark .about-skills h2 {
+  font-weight: bolder;
+  color: white;
+}
+.about-main.dark .about-skills .skills-table .skills-table-col {
+  border: 1px dotted white;
+  padding: 1rem;
+}/*# sourceMappingURL=About.css.map */
