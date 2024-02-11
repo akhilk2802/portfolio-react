@@ -1,25 +1,46 @@
 .home-main {
   text-align: center;
   align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   background-color: white;
   min-height: 100vh;
+}
+.home-main .home-introSection {
+  margin-top: 10rem;
+  min-height: 20rem;
+}
+.home-main .home-introSection .col-1 Img {
+  border-radius: 30%;
+}
+.home-main .home-introSection .col-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .home-main .home-title {
   text-align: center;
 }
 .home-main .home-title h1 {
   font-size: 4rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .home-main .home-subtitle {
-  color: grey;
+  color: darkgrey;
 }
 .home-main .home-subtitle h5 {
   font-size: 2rem;
   font-weight: bold;
+}
+.home-main .home-subtitle .button-resume {
+  margin-top: 1rem;
+  background-color: gray;
+  color: white;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 15px; /* Add rounded corners if desired */
+  cursor: pointer;
 }
 .home-main .home-connect {
   justify-content: space-between;
@@ -33,6 +54,11 @@
   background-color: darkgrey;
   border: none;
   margin: 0.5rem;
+}
+.home-main .home-connect .home-connect-subHeading h4 {
+  color: grey;
+  size: 0.5rem;
+  font-weight: bolder;
 }
 
 .home-main.dark {
@@ -49,4 +75,7 @@
 }
 .home-main.dark .home-connect {
   background-color: rgb(17, 17, 17);
+}
+.home-main.dark .home-connect .home-connect-subHeading h4 {
+  color: white;
 }/*# sourceMappingURL=Home.css.map */

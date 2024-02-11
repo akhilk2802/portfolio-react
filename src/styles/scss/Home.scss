@@ -1,30 +1,60 @@
 .home-main {
   text-align: center;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
   display: flex;
   flex-direction: column;
   background-color: rgba($color: white, $alpha: 1);
   min-height: 100vh;
+
+  .home-introSection {
+    // border: 1px solid black;
+    margin-top: 10rem;
+    min-height: 20rem;
+
+    .col-1 {
+      // border: 1px solid red;
+      Img {
+        border-radius: 30%;
+      }
+    }
+    .col-2 {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      // border: 1px solid blue;
+    }
+  }
 
   .home-title {
     text-align: center;
 
     h1 {
       font-size: 4rem;
-      font-weight: bolder;
+      font-weight: bold;
     }
   }
   .home-subtitle {
-    color: grey;
+    color: darkgrey;
 
     h5 {
       font-size: 2rem;
       font-weight: bold;
     }
+    .button-resume {
+      margin-top: 1rem;
+      background-color: gray;
+      color: white;
+      padding: 10px 20px; /* Adjust padding as needed */
+      border: none;
+      border-radius: 15px; /* Add rounded corners if desired */
+      cursor: pointer;
+    }
   }
   .home-connect {
     // border: 1px solid blue;
+
     justify-content: space-between;
     margin: 0%;
     padding: 0%;
@@ -36,6 +66,14 @@
       background-color: darkgrey;
       border: none;
       margin: 0.5rem;
+    }
+
+    .home-connect-subHeading {
+      h4 {
+        color: grey;
+        size: 0.5rem;
+        font-weight: bolder;
+      }
     }
   }
 }
@@ -56,5 +94,11 @@
 
   .home-connect {
     background-color: rgba(17, 17, 17, 255);
+
+    .home-connect-subHeading {
+      h4 {
+        color: white;
+      }
+    }
   }
 }

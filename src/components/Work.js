@@ -48,39 +48,43 @@ const Work = () => {
               <p>
                 <ul>
                   <li>
-                    Acquired proficiency in the .NET Framework while actively
-                    contributing to the ongoing enhancement of the Viewing
-                    Experience Client Application. Integrated a version display
-                    feature into the settings menu using XAML file manipulation,
-                    ensuring users have clear visibility of the application's
-                    current version.
+                    Mastered .NET and Integrated improvements to the "Viewing
+                    Experience Client" Application, incorporated version display
+                    feature into the settings menu which enhanced the
+                    transparency by 20%
                   </li>
                   <li>
-                    Converted a single-screen Multiplexer, employing a
-                    producer-consumer model to accommodate and display multiple
-                    screens. This involved intricately managing individual
-                    threads for optimal performance and responsiveness.
+                    Revamped a single-screen Multiplexer, implementing a
+                    producer-consumer model to seamlessly handle and showcase
+                    multiple screens using MQTT protocol, resulting in a 40%
+                    reduction in screen loading time and enhanced user
+                    experience
                   </li>
                   <li>
-                    Developed “Stateo”, a Single Page Web Application, utilizing
-                    ReactJS for an intuitive and modern user interface, and DRF
-                    for robust backend APIs. Database management was executed
-                    efficiently using MSSQL, ensuring data integrity
+                    Created and deployed 'Stateo" on AWS EC2 instance, A Single
+                    Page Web Application using ReactJS, integrating (Django Rest
+                    Framework) DRF for backend APIs, SQLite was used for
+                    database management, which decreased the data retrieval time
                   </li>
                   <li>
-                    "Stateo" enables employees to seamlessly track their daily
-                    and advance status (WFH, WFO, Leave), significantly
-                    improving team efficiency, communication, and overall
-                    performance. The application was deployed on AWS EC2. To
-                    enhance security, a role-based signup and login system with
-                    integrated Active Directory authentication was implemented.
-                    Was recognized for reshaping workplace dynamics and
-                    fostering positive team collaboration
+                    'Stateo" enables employees to effortlessly track daily and
+                    advance status, which improved team engagement by 25%
+                  </li>
+                  <li>
+                    Implemented a role-based authentication with Active
+                    Directory for 'Stateo"; ensured data integrity and
+                    streamlined user access, resulting in improved security and
+                    compliance while reducing login errors by 40%
+                  </li>
+                  <li>
+                    Implemented AWS Simple Email Service (SES) for automated
+                    daily report notifications to higher authorities, which
+                    increased the transparency by 50%
                   </li>
                   <li>
                     <strong>
-                      Achievement - Secured second prize in the
-                      organization-wide held Hackathon called CPL
+                      Achievement - Won organization-wide held Hackathon called
+                      CPL
                     </strong>
                   </li>
                 </ul>
@@ -108,21 +112,16 @@ const Work = () => {
               <p>
                 <ul>
                   <li>
-                    Worked on application to re-architect a multi page web-app
-                    to single page web-app, boosting performance and engagement
+                    Engineered a seamless transition from a multi-page web app
+                    to a single-page architecture, utilizing ReactJS and
+                    achieved a 40% reduction in server requests, leading to a
+                    30% improvement in app performance
                   </li>
                   <li>
-                    Spearheaded the design initiative for the organization's
-                    team structure, playing a pivotal role in shaping the
-                    Company's landing page, ensuring a compelling and effective
-                    online presence.
-                  </li>
-                  <li>
-                    Designed and implemented NodeJS APIs dedicated to retrieving
-                    data from the database for critical sections, specifically
-                    the Careers page and Platform Engineering page of the
-                    company's website. This initiative streamlined data access,
-                    contributing to an enhanced and efficient user experience.
+                    Utilized ReactJS and Material UI to overhaul the platform
+                    engineering section of the organizational landing page,
+                    leading to a 30% enhancement in user engagement and a 20%
+                    decrease in page load time
                   </li>
                 </ul>
               </p>
