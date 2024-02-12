@@ -125,17 +125,45 @@
 
     h1 {
       color: white;
-      font-size: 2rem;
+      font-size: 4rem;
       font-weight: bolder;
     }
   }
 
-  .home-connect {
-    background-color: rgba(17, 17, 17, 255);
+  @media (max-width: 768px) {
+    .home-introSection {
+      .d-flex.align-items-stretch {
+        flex-direction: column;
+      }
 
-    .home-connect-subHeading {
-      h4 {
-        color: white;
+      .col-1 {
+        width: 100%;
+        img {
+          width: 60%;
+          height: 60%;
+        }
+      }
+
+      .col-2 {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+          font-size: 2rem;
+        }
+        h5 {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .home-connect {
+      bottom: 0;
+      margin-top: 5rem;
+      position: absolute;
+      text-align: center;
+      .social-button {
+        margin: 0.5rem;
       }
     }
   }

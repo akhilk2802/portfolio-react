@@ -101,12 +101,37 @@
 }
 .home-main.dark .home-title h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bolder;
 }
-.home-main.dark .home-connect {
-  background-color: rgb(17, 17, 17);
-}
-.home-main.dark .home-connect .home-connect-subHeading h4 {
-  color: white;
+@media (max-width: 768px) {
+  .home-main.dark .home-introSection .d-flex.align-items-stretch {
+    flex-direction: column;
+  }
+  .home-main.dark .home-introSection .col-1 {
+    width: 100%;
+  }
+  .home-main.dark .home-introSection .col-1 img {
+    width: 60%;
+    height: 60%;
+  }
+  .home-main.dark .home-introSection .col-2 {
+    width: 100%;
+    text-align: center;
+  }
+  .home-main.dark .home-introSection .col-2 h1 {
+    font-size: 2rem;
+  }
+  .home-main.dark .home-introSection .col-2 h5 {
+    font-size: 1rem;
+  }
+  .home-main.dark .home-connect {
+    bottom: 0;
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+  }
+  .home-main.dark .home-connect .social-button {
+    margin: 0.5rem;
+  }
 }/*# sourceMappingURL=Home.css.map */

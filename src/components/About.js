@@ -22,7 +22,7 @@ const About = () => {
         </Container>
 
         <Container className="about-body">
-          <h5>Hello world !</h5>
+          <h4>Hello world !</h4>
           <br />
           <p>
             I am a software engineer actively broadening my expertise by
