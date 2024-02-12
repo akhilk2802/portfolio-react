@@ -76,10 +76,10 @@
     text-align: center;
   }
   .home-main .home-introSection .col-2 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .home-main .home-introSection .col-2 h5 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .home-main .home-connect {
     bottom: 0;
@@ -101,7 +101,7 @@
 }
 .home-main.dark .home-title h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 .home-main.dark .home-connect {

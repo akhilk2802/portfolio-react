@@ -1,9 +1,10 @@
 import { Container, Card, Button } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
 import "../styles/css/ProjectCard.css";
+
 import { useTheme } from "./ThemeContext";
 
-const ProjectCard = (props) => {
+const ProjectCard1 = (props) => {
   const animatedProp = useSpring({
     opacity: 1,
     transform: "translateY(0)",
@@ -15,7 +16,10 @@ const ProjectCard = (props) => {
   return (
     <>
       <animated.div style={animatedProp}>
-        <Card className={`projectCard-main ${theme}`}>
+        <Card
+          className={`projectCard-main ${theme}`}
+          style={{ width: "80rem" }}
+        >
           <Card.Body className="d-flex">
             <div className="col-md-4">
               <Card.Img
@@ -24,15 +28,11 @@ const ProjectCard = (props) => {
                 src={props.image}
               />
             </div>
-            <div className="col-md-4 card-title-text">
-              <Card.Title>{props.title}</Card.Title>
-              <Card.Text>{props.text}</Card.Text>
+            <div className="col-md-4">
+              <Card.Text>{props.title}</Card.Text>
             </div>
-            <div className="col-md-4 card-footer-github">
-              <Button href={props.gitLink} target="_blank" variant="primary">
-                Github
-              </Button>
-              <Card.Text>{props.techStack}</Card.Text>
+            <div className="col-md-4">
+              <Card.Text>{props.text}</Card.Text>
             </div>
           </Card.Body>
         </Card>
@@ -40,4 +40,4 @@ const ProjectCard = (props) => {
     </>
   );
 };
-export default ProjectCard;
+export default ProjectCard1;

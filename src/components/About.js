@@ -22,34 +22,52 @@ const About = () => {
         </Container>
 
         <Container className="about-body">
-          <h5>Hello world, I'm Akhil!</h5>
+          <h5>Hello world !</h5>
           <br />
           <p>
-            As a seasoned software developer, I bring proficiency in TypeScript
-            and JavaScript, coupled with expertise in React, Node.js, and
-            Express.js frameworks. My commitment to continuous learning is
-            evident in my current exploration of backend technologies, aiming to
-            evolve into a versatile full-stack developer.
+            I am a software engineer actively broadening my expertise by
+            pursuing a Master's in Software Engineering Systems at Northeastern
+            University.
           </p>
 
           <p>
-            I pride myself on being a swift learner and thrive on collaborative
-            client engagements, delivering efficient, scalable, and
-            user-friendly solutions to address real-world challenges. I am not
-            just a coder; I am a problem solver who navigates corporate
-            complexities with a code editor, avoiding jargon overload.
+            I previously served at Sony India, where I had the oppurtunity to
+            make contributions to a critical tool utilized by Sony Pictures for
+            processing movies and videos prior to their release, known as
+            "Viewing Experience." During my tenure, I also developed an in-house
+            application for the team. This experience was instrumental in
+            enhancing my skills in full-stack technologies and laying a solid
+            foundation for my career in software engineering.
           </p>
 
           <p>
-            Whether it's diving into SDE or web development roles, I am ready to
-            be your code wrangler, eager to contribute to building innovative
-            and impactful solutions. Let's embark on a journey to create
-            something extraordinary together!
+            I have a strong interest in contributing to open-source projects,
+            exploring distributed systems, and delving into cloud computing. I
+            am actively learning and eager to embark on my journey in these
+            domains.
+          </p>
+
+          <p>
+            Regarding technical skills, I have expertise in languages such as
+            Python, Java, C#, and JavaScript. My proficiency extends to backend
+            technologies like Node.js, Rest APIs, and the .NET Framework, as
+            well as the Django Framework. In frontend development, I am skilled
+            in HTML5, CSS3, React.js, XML, and XAML. Additionally, I have
+            experience working with databases, including MongoDB, SQL, MySQL,
+            and MSSQL.
+          </p>
+
+          <p>
+            Excited about the prospect of connecting with like-minded
+            individuals, contributing to meaningful projects, and collaborating
+            to build innovative solutions that make a positive impact. Looking
+            forward to exploring new opportunities, sharing insights, and
+            collectively creating something cool.
           </p>
         </Container>
 
-        <Container className="about-skills">
-          <h3>Skills: </h3>
+        {/* <Container className="about-skills">
+          <h3>Technical Skills: </h3>
           <br />
           <Container className="skills-table">
             <animated.div style={fadeIn}>
@@ -105,7 +123,7 @@ const About = () => {
               </Row>
             </animated.div>
           </Container>
-        </Container>
+        </Container> */}
       </Container>
     </>
   );

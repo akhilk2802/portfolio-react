@@ -2,6 +2,29 @@
   padding: 0.5rem;
   margin: 1rem;
   transition: transform 0.3s;
+  width: 85rem;
+}
+.projectCard-main .card-title-text {
+  padding: 1rem;
+}
+.projectCard-main .card-footer-github {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.projectCard-main .card-footer-github Button {
+  width: 2rem;
+}
+@media only screen and (max-width: 767px) {
+  .projectCard-main {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .projectCard-main {
+    width: 50rem;
+  }
 }
 
 .projectCard-main:hover {
@@ -13,6 +36,18 @@
   padding: 0.5rem;
   margin: 1rem;
   transition: transform 0.3s;
+}
+.projectCard-main.dark .card-title-text {
+  padding: 1rem;
+}
+.projectCard-main.dark .card-footer-github {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.projectCard-main.dark .card-footer-github Button {
+  width: 2rem;
 }
 
 .projectCard-main:hover {
