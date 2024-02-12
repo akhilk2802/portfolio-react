@@ -60,6 +60,37 @@
   size: 0.5rem;
   font-weight: bolder;
 }
+@media (max-width: 768px) {
+  .home-main .home-introSection .d-flex.align-items-stretch {
+    flex-direction: column;
+  }
+  .home-main .home-introSection .col-1 {
+    width: 100%;
+  }
+  .home-main .home-introSection .col-1 img {
+    width: 60%;
+    height: 60%;
+  }
+  .home-main .home-introSection .col-2 {
+    width: 100%;
+    text-align: center;
+  }
+  .home-main .home-introSection .col-2 h1 {
+    font-size: 3rem;
+  }
+  .home-main .home-introSection .col-2 h5 {
+    font-size: 2rem;
+  }
+  .home-main .home-connect {
+    bottom: 0;
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+  }
+  .home-main .home-connect .social-button {
+    margin: 0.5rem;
+  }
+}
 
 .home-main.dark {
   background-color: rgb(17, 17, 17);

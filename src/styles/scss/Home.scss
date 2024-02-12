@@ -76,6 +76,44 @@
       }
     }
   }
+
+  @media (max-width: 768px) {
+    .home-introSection {
+      .d-flex.align-items-stretch {
+        flex-direction: column;
+      }
+
+      .col-1 {
+        width: 100%;
+        img {
+          width: 60%;
+          height: 60%;
+        }
+      }
+
+      .col-2 {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+          font-size: 3rem;
+        }
+        h5 {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .home-connect {
+      bottom: 0;
+      margin-top: 5rem;
+      position: absolute;
+      text-align: center;
+      .social-button {
+        margin: 0.5rem;
+      }
+    }
+  }
 }
 
 .home-main.dark {
