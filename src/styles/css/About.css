@@ -44,6 +44,9 @@
 .about-main.dark .about-title p {
   color: white;
 }
+.about-main.dark .about-body h4 {
+  color: white;
+}
 .about-main.dark .about-body h5 {
   color: white;
 }

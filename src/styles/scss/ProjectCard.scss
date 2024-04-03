@@ -4,6 +4,11 @@
   transition: transform 0.3s;
   width: 85rem;
 
+  .projectCard-image {
+    height: 300px;
+    width: 425px;
+  }
+
   .card-title-text {
     padding: 1rem;
   }

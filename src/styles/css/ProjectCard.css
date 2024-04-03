@@ -4,6 +4,10 @@
   transition: transform 0.3s;
   width: 85rem;
 }
+.projectCard-main .projectCard-image {
+  height: 300px;
+  width: 425px;
+}
 .projectCard-main .card-title-text {
   padding: 1rem;
 }
